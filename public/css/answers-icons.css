@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "answersIcons";
+  src: url('fonts/answersIcons.eot');
+  src: url('fonts/answersIcons.eot?#iefix') format('eot'),
+    url('fonts/answersIcons.woff') format('woff'),
+    url('fonts/answersIcons.ttf') format('truetype'),
+    url('fonts/answersIcons.svg#answersIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon:before {
+  display: inline-block;
+  font-family: "answersIcons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.icon-2x { font-size: 2em; }
+.icon-3x { font-size: 3em; }
+.icon-4x { font-size: 4em; }
+.icon-5x { font-size: 5em; }
+.icon-fw {
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+
+.icon-check:before { content: "\EA01" }
+.icon-vi:before { content: "\EA02" }
+.icon-follow:before { content: "\EA03" }
+.icon-x:before { content: "\EA04" }
+.icon-camera:before { content: "\EA05" }
+.icon-link:before { content: "\EA06" }
+.icon-video:before { content: "\EA07" }
+.icon-home:before { content: "\EA08" }
+.icon-spotlight:before { content: "\EA09" }
+.icon-line-arrow:before { content: "\EA0A" }
+.icon-image2:before { content: "\EA0B" }
+.icon-link2:before { content: "\EA0C" }
+.icon-video2:before { content: "\EA0D" }
+.icon-attachment:before { content: "\EA0E" }
+.icon-clip:before { content: "\EA0F" }
+.icon-photos-tiny:before { content: "\EA10" }

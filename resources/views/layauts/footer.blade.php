@@ -4,50 +4,50 @@
         <div class="wf-column-container">
             <ul class="wf-column wf-links-column wf-product-column">
                 <li><div class="wf-title">PRODUCT</div></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/website/templates">Templates</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/sample/website">Explore</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/features">Features</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/my-account">My Sites</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/upgrade/website">Premium Plans</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/ecommerce/website">Online Store</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/app-market/main">App Market</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/domain/names">Domains</a></li>
-                <li><a class="frog" frog-type="main" href="http://dev.wix.com">Developers</a></li>
+                <li><a class="frog" frog-type="main" href="/">Templates</a></li>
+                <li><a class="frog" frog-type="main" href="/">Explore</a></li>
+                <li><a class="frog" frog-type="main" href="/">Features</a></li>
+                <li><a class="frog" frog-type="main" href="/">My Sites</a></li>
+                <li><a class="frog" frog-type="main" href="/">Premium Plans</a></li>
+                <li><a class="frog" frog-type="main" href="/">Online Store</a></li>
+                <li><a class="frog" frog-type="main" href="/">App Market</a></li>
+                <li><a class="frog" frog-type="main" href="/">Domains</a></li>
+                <li><a class="frog" frog-type="main" href="/">Developers</a></li>
             </ul>
             <ul class="wf-column wf-links-column wf-company-column">
                 <li><div class="wf-title">COMPANY</div></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/us">About Wix</a></li>
-                <li><a class="frog" frog-type="main" href="http://investors.wix.com">Investor Relations</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/jobs/home">Jobs</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/design-assets">Design Assets</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/terms-of-use">Terms of use</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/app-market-terms">App Market Terms</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/privacy">Privacy</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/upgrade/abuse">Abuse</a></li>
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/affiliates">Affiliates</a></li>
+                <li><a class="frog" frog-type="main" href="/">About Wix</a></li>
+                <li><a class="frog" frog-type="main" href="/">Investor Relations</a></li>
+                <li><a class="frog" frog-type="main" href="/">Jobs</a></li>
+                <li><a class="frog" frog-type="main" href="/">Design Assets</a></li>
+                <li><a class="frog" frog-type="main" href="/">Terms of use</a></li>
+                <li><a class="frog" frog-type="main" href="/">App Market Terms</a></li>
+                <li><a class="frog" frog-type="main" href="/">Privacy</a></li>
+                <li><a class="frog" frog-type="main" href="/">Abuse</a></li>
+                <li><a class="frog" frog-type="main" href="/">Affiliates</a></li>
 
-                <li><a class="frog" frog-type="main" href="http://www.wix.com/about/contact-us">Contact Us</a></li>
+                <li><a class="frog" frog-type="main" href="/">Contact Us</a></li>
             </ul>
             <ul class="wf-column wf-links-column wf-community-column">
                 <li><div class="wf-title">COMMUNITY</div></li>
 
-                <li><a class="frog" frog-type="main" target="_blank" href="http://www.wix.com/blog">Wix Blog</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="">Wix Blog</a></li>
 
-                <li><a class="frog" frog-type="main" target="_blank" href="http://www.wix.com/stories/">Wix Stories</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="http://arena.wix.com">Wix Arena</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="http://www.wix.com/lounge/main">Wix Lounge</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="https://www.facebook.com/wix">Facebook</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Wix Stories</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Wix Arena</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Wix Lounge</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Facebook</a></li>
  
-                <li><a class="frog" frog-type="main" target="_blank" href="https://twitter.com/wix">Twitter</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="https://plus.google.com/+Wix/posts">Google+</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="http://www.pinterest.com/wixcom/">Pinterest</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="http://www.youtube.com/user/Wix">Youtube</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="https://www.linkedin.com/company/wix-com?trk=biz-companies-cym">Linkedin</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Twitter</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Google+</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Pinterest</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Youtube</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Linkedin</a></li>
             </ul>
             <ul class="wf-column wf-links-column wf-support-column">
                 <li><div class="wf-title">SUPPORT</div></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="https://support.wix.com/en/">Support Center</a></li>
-                <li><a class="frog" frog-type="main" target="_blank" href="https://www.youtube.com/playlist?list=PL0y_aclKYoYiiQOcmCPscYx1LynyDl0TV">Training Videos</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Support Center</a></li>
+                <li><a class="frog" frog-type="main" target="_blank" href="/">Training Videos</a></li>
             </ul>
             <div class="wf-column wf-about-wix-column">
                 <div class="wf-logo">

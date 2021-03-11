@@ -12,11 +12,9 @@
    
 
         @yield('header')
-            This is the master sidebar.
-        @show
+            
         @yield('sidebar')
-            This is the master sidebar.
-        @show
+            
 
         <div class="container">
             @yield('content')
