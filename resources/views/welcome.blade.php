@@ -18,7 +18,7 @@
             body {
                 font-family: 'Nunito';
             }
-            .div-code { # old
+            div-code { 
                 margin-left: 65px;
                 border: 1px solid black;
                 padding: 10px;
@@ -53,7 +53,7 @@
  
     <h2>Component Methods</h2>
     <strong>Output:</strong></br>
-    <select size="3" name="hero">
+    <select size="4" name="hero">
         <x-option value="0" label="Papay"></x-option>
         <x-option value="1" label="Tom"></x-option>
         <x-option value="0" label="Jerry"></x-option>

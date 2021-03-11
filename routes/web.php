@@ -16,7 +16,7 @@ use App\Http\Middleware\Database\Connect;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layauts.main');
 });
 
 
