@@ -1,10 +1,11 @@
+@section('menutop')
 {{-- This is templorer menu for laravel_examples progect--}}
 <style>
     #menutop{
         text-shadow: 10px 10px 10px;
     }
 </style>
-@section('menutop')
+
 <h1>Blade Templates</h1>
 <ul id="menutop">
     <ul># Components

@@ -12,9 +12,9 @@
    
 
         @yield('header')
-            
         @yield('sidebar')
             
+        @show
 
         <div class="container">
             @yield('content')

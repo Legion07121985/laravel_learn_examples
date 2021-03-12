@@ -17,6 +17,7 @@
             </div>
         @endisset
     @endenv
+    {{ $TabWC->show(4) }}
 
 
     <h2>Passing Data To Components</h2>
@@ -41,7 +42,7 @@
         <i class="fas fa-newspaper"></i> News
     </x-commons.link>
     {{ $TabWC->show(3) }}
-    
+        
 
     <!-- Component Attributes | Default / Merged Attributes | Slots -->
     <x-alert2 type="someType" message="Massage from welcome.blade.php" class="mt-4">
