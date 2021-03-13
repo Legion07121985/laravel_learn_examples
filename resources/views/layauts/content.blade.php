@@ -3,6 +3,7 @@
 @include('layauts.menutop')
 @yield('menutop')
 <br>    
+<div id="example"></div>
     <h3>Environment Directives</h3>
     @production
     <div class="container">
