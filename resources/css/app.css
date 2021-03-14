@@ -1,0 +1,60 @@
+.top_cell 
+    background-color: #657b83
+    border-color: inherit
+    border-style: solid
+    border-width: 1px
+    color: #fdf6e3
+    font-family: Arial, sans-serif
+    font-size: 14px
+    font-weight: bold
+    overflow: hidden
+    padding: 10px 5px
+    text-align: left
+    vertical-align: top
+    word-break: normal
+.bottom_cell 
+    background-color: #fdf6e3
+    border-color: inherit
+    border-style: solid
+    border-width: 1px
+    color: #002b36
+    font-family: Arial, sans-serif
+    font-size: 14px
+    overflow: hidden
+    padding: 10px 10px
+    text-align: left
+    vertical-align: top
+    word-break: normal
+
+.table 
+    border-collapse: collapse
+    border-color: #93a1a1
+    border-spacing: 0
+/* unvisited link */
+a:link 
+    color: red
+
+  
+  /* visited link */
+  a:visited 
+    color: green
+
+  
+  /* mouse over link */
+  a:hover 
+    color: hotpink
+
+  
+  /* selected link */
+  a:active 
+    color: blue
+
+  .container 
+    margin: 30px
+    width: 67%
+    border: 1px dashed lightgray
+    margin-top: 90px
+    padding: 20px
+    padding-left: 40px
+body 
+    font-family: 'Roboto', sans-serif

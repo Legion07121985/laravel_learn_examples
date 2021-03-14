@@ -3,13 +3,17 @@
 @include('layauts.menutop')
 @yield('menutop')
 <br>    
+<div style="float: right" id="like_button_container"></div>
 <div id="example"></div>
+
     <h3>Environment Directives</h3>
+    <strong>Out:</strong>
     @production
     <div class="container">
         This is production mode??? Yes it is!
     </div>
     @endproduction
+    
  
     @env('local')
         @isset($_ENV['EXAMPLE'])
