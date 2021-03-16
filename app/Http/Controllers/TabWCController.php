@@ -53,6 +53,7 @@ class TabWCController extends Controller
     public function show($id)
     {
       $query_data = DB::select('select * from '. $this->table.' where id = ?', [$id]);
+      $query_data = $query_data;
       return view('layauts.main', ['data'=>$query_data[0], 'inc'=>'layauts.tabwc.show']);
     }
 
@@ -91,11 +92,8 @@ class TabWCController extends Controller
      */
     public function update(Request $request, $id)
     {
-       //var_dump($_REQUEST);
-       
        $name = $request->name;
        $col1_name = $request->col1_name;
-       echo $col1_name;
        $col1_data = $request->col1_data;
        $col2_name = $request->col2_name;
        $col2_data = $request->col2_data;
@@ -117,8 +115,6 @@ class TabWCController extends Controller
                               'col4_data' => $col4_data, 
                               'description' => $description]);
        
-       //var_dump ($name);
-       //$affected = DB::update('update users set votes = 100 where name = ?', ['Anita']);
        return 'Method name: '.__METHOD__;
     }
 

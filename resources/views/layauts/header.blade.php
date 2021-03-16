@@ -22,12 +22,12 @@
                     <div class="links-mouse-over-indication"></div>
                     <ul class="web">
                         <li class="menuItem">
-                            <a id="wm-my-account-link" href="/tabwc" class="selected">Data change</a>
+                            <a id="wm-my-account-link" href="/" class="selected">Blade Templates</a>
                         </li>
                         <li class="menuItem">
-                            <a id="wm-my-account-link" href="/" class="selected">Examples</a>
+                          <a id="wm-my-account-link" href="/tabwc" class="selected">Data change</a>
                         </li>
-                        <li class="menuItem">
+                        {{-- <li class="menuItem">
                             <a id="wm-create-link" href="/">Templates</a>
                         </li>
                         <li class="wm-dropdown menuItem">
@@ -78,7 +78,7 @@
                         </li>
                         <li class="menuItem selected">
                             <a id="wm-support-link" href="/">Support</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

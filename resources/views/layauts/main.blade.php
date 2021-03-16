@@ -6,12 +6,12 @@
 @include('layauts.head')
 @include('layauts.header')
 @include('layauts.footer')
-{{-- Set default value--}}
-{{-- Ex.: 'layauts.content', 'layauts.tabwc.index' --}}
+
 @empty($inc)                    
     {{$inc = 'layauts.content'}};
 @endempty
 @include($inc)
+
 <html>
     <head>
         <title>App Name - @yield('title')</title>
@@ -38,4 +38,5 @@
     <script defer src="{{$_ENV['APP_URL']}}/js/react/components/like_button.js"></script>
     <script defer src="{{$_ENV['APP_URL']}}/js/my-code.js"></script>
     <script type="text/css" src="{{$_ENV['APP_URL']}}/js/holvertica_fonts.js"></script>
+
 </html>

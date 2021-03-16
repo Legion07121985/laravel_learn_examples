@@ -17,6 +17,7 @@ $("textarea[name='description']").height($("textarea[name='description']")[0].ch
                 $('#modal_save_button').addClass("btn-danger");
                 $('#modal_save_button').removeClass('update');
                 $('#modal_save_button').addClass("delete");
+                $('#modal_save_button').text('Delete');
             }
         );
 //  }, 15000);
@@ -28,9 +29,10 @@ $("textarea[name='description']").height($("textarea[name='description']")[0].ch
             $('#modal-body').html('<strong style="color: #2d995b">Are you sure you want to UPDATE the table data? The changes the data will be lost forever!</strong>');
             $('#modal_save_button').removeClass('btn-danger');
             $('#modal_save_button').removeClass('btn-primary');
-            $('#modal_save_button').addClass("btn-success");
             $('#modal_save_button').removeClass('delete');
+            $('#modal_save_button').addClass("btn-success");
             $('#modal_save_button').addClass("update");
+            $('#modal_save_button').text('Update');
         }
     );
 

@@ -70,3 +70,45 @@ body {
 tr:hover {
   background-color: lightblue;
 }
+
+/*Start: for http://domain_name/tabwc/{{id}}/edit */
+table .p0 {
+  padding: 0px;
+}
+.textarea_clean {background-color: rgb(253, 246, 227); border: 0px; 
+  display: block;
+  width: 100%; 
+  margin: 0px; 
+  padding: 10px; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+.input_clean {
+  width: 100%; 
+  background-color: #657b83; 
+  border: 0; 
+  color: #fdf6e3; 
+  font-weight: bold; 
+  padding: 10px;
+}
+.input_name {
+  max-height: 34px;
+}
+.blck {
+  color: black;
+}
+.nm_cll_stl {
+  max-height: 34px; 
+  min-height: 34px;
+}
+.div_wth_btn {
+  height: 38px;
+}
+.bttn_strt_mdl_wndw {
+float: right;
+}
+.bttn_strt_mdl_wndw_updt {
+margin-right: 10px;
+}
+/*End: for http://domain_name/tabwc/{{id}}/edit */
