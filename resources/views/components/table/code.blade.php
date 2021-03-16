@@ -1,4 +1,4 @@
-<!-- Usage: https://www.tablesgenerator.com/html_tables# -->
+<!-- For develop helps: https://www.tablesgenerator.com/html_tables# -->
 <table class="table id-{{ $data->id }}">
   <tr>
     <td class="top_cell">{{ $data->col1_name }}</td>
@@ -38,4 +38,3 @@
     <td class="bottom_cell">@php echo html_entity_decode($data->description) @endphp</td>
   </tr>
 </table>
-

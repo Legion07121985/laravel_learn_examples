@@ -19,5 +19,4 @@ Route::get('/', function () {
     return view('layauts.main');
 });
 
-
 Route::resource('tabwc', TabWCController::class)->middleware(Connect::class);

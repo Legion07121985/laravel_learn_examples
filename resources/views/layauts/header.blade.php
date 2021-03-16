@@ -15,7 +15,6 @@
         </div>
         <div class="wm-container">
             <div class="wm-logo-wrapper">
-                {{-- <a href="/" id="wm-logo">Wix</a> --}}
                 <div style="margin: 0; padding: 2; test-align: center; border: 1px dashed lightgray; width: 89px; height: 24px;">LOGOTYPE</div>
             </div>
             <div class="wm-links-wrapper">
@@ -23,7 +22,7 @@
                     <div class="links-mouse-over-indication"></div>
                     <ul class="web">
                         <li class="menuItem">
-                            <a id="wm-my-account-link" href="/" class="selected">Laravel documentetion</a>
+                            <a id="wm-my-account-link" href="/tabwc" class="selected">Data change</a>
                         </li>
                         <li class="menuItem">
                             <a id="wm-my-account-link" href="/" class="selected">Examples</a>

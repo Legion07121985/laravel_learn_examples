@@ -1,24 +1,22 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Examples\BladeTemplates;
 
 use Illuminate\View\Component;
 
-class Alert2 extends Component
+class ComponentAttributes extends Component
 {
-
     public $type;
-    public $message;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct($message, $type) # set massage & type from welcome.blade.php
+    public function __construct($type) # set massage & type from welcome.blade.php
     {
-	    $this->message = $message;
 	    $this->type = $type;
     }
+
     /**
      * Get the view / contents that represent the component.
      *
@@ -26,6 +24,6 @@ class Alert2 extends Component
      */
     public function render()
     {
-        return view('components.alert2');
+        return view('components.examples.blade-templates.component-attributes');
     }
 }

@@ -6,7 +6,12 @@
 @include('layauts.head')
 @include('layauts.header')
 @include('layauts.footer')
-@include('layauts.content')
+{{-- Set default value--}}
+{{-- Ex.: 'layauts.content', 'layauts.tabwc.index' --}}
+@empty($inc)                    
+    {{$inc = 'layauts.content'}};
+@endempty
+@include($inc)
 <html>
     <head>
         <title>App Name - @yield('title')</title>
@@ -21,15 +26,16 @@
         @show
     
         <div class="container">
-        </br></br></br></br>
-            @yield('content')
+             @yield('content')
         </div>
 
         @yield('footer')
     </body>
-    <script type="text/javascript" src="js/app.js"></script>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-  <script src="js/react/components/like_button.js"></script>
     
+    <script defer type="text/javascript" src="{{$_ENV['APP_URL']}}/js/app.js"></script>
+    <script defer src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script defer src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script defer src="{{$_ENV['APP_URL']}}/js/react/components/like_button.js"></script>
+    <script defer src="{{$_ENV['APP_URL']}}/js/my-code.js"></script>
+    <script type="text/css" src="{{$_ENV['APP_URL']}}/js/holvertica_fonts.js"></script>
 </html>
